@@ -1,0 +1,41 @@
+SELECT * FROM Customers
+WHERE Customer_id = 1;
+
+SELECT item, amount FROM Orders
+WHERE amount BETWEEN 300 AND 500;
+
+SELECT * FROM Customers
+WHERE first_name LIKE 'd%'
+
+
+
+CREATE TABLE IF NOT EXISTS users(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  age INTEGER
+)
+
+
+
+INSERT INTO Users (name, age)
+VALUES ("Kostya", 39)
+
+
+
+DELETE FROM Users
+WHERE id = 2
+
+
+
+UPDATE Users
+SET name = "Alexandr", age = 30
+  WHERE id = 1
+
+
+
+
+
+
+
+
+

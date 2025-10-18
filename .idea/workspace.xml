@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967170df-fde5-4cdd-b8ad-f7085bf8d989" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/Lesson 2/SQLOnline.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 3/LessonFile1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 3/LessonFile2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final Project/PPReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final Project/movies_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 4/LessonFile1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/Honework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/LessonFile1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/LessonFile2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/LessonFile3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/ds_salaries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 5 (Pandas)/movies_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 6 (Pandas)/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 6 (Pandas)/movies_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 7 (PyPlot)/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 7 (PyPlot)/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 7 (PyPlot)/File3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 7 (PyPlot)/education.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/os5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/os5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -48,20 +60,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.File1.executor": "Run",
+    "Python.File2.executor": "Run",
+    "Python.File3.executor": "Run",
+    "Python.Homework1.executor": "Run",
+    "Python.Honework.executor": "Run",
     "Python.LessonFile1.executor": "Run",
     "Python.LessonFile2.executor": "Run",
+    "Python.LessonFile3.executor": "Run",
+    "Python.PPReader.executor": "Run",
     "Python.os1.executor": "Run",
     "Python.os2.executor": "Run",
     "Python.os3.executor": "Run",
     "Python.os4.executor": "Run",
     "Python.os5.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Zver/PycharmProjects/DataBases/Final Project",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project" />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 6 (Pandas)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project" />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project " />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 7 (PyPlot)" />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases" />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 5 (Pandas)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758916983021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1759662734672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759662734672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <option name="closed" value="true" />
+      <created>1759662755912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759662755912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

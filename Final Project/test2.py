@@ -49,7 +49,6 @@ column_select2_2 = ctk.CTkOptionMenu(master=app)
 
 copy_button = ctk.CTkButton(app, text="Копіювати", font=ctk.CTkFont(size=35))
 
-
 def info_opening(choice):
     global df
     method_select.place_forget()
@@ -78,8 +77,12 @@ def info_opening(choice):
         def option_menu_info_def(*_):
             ms = method_select.get()
             cs = column_select.get()
-            if (ms != "Тут немає даних" and ms != "Виберіть метод"
-                    and cs != "Тут немає даних" and cs != "Виберіть колонку"):
+            if (
+                ms != "Тут немає даних"
+                and ms != "Виберіть метод"
+                and cs != "Тут немає даних"
+                and cs != "Виберіть колонку"
+            ):
                 if ms == "Кількість":
                     info_label.configure(text=df_describe[cs]["count"])
                 elif ms == "Середнє значення":
@@ -137,9 +140,14 @@ def info_opening(choice):
             cs2 = column_select2.get()
             cs2_2 = column_select2_2.get()
 
-            if (ms2 != "Тут немає даних" and ms2 != "Виберіть метод"
-                    and cs2 != "Тут немає даних" and cs2 != "Виберіть колонку"
-                    and cs2_2 != "Тут немає даних" and cs2_2 != "Виберіть колонку"):
+            if (
+                ms2 != "Тут немає даних"
+                and ms2 != "Виберіть метод"
+                and cs2 != "Тут немає даних"
+                and cs2 != "Виберіть колонку"
+                and cs2_2 != "Тут немає даних"
+                and cs2_2 != "Виберіть колонку"
+            ):
                 if fig is not None:
                     plt.close(fig)
 
@@ -243,7 +251,6 @@ def info_opening(choice):
     button_diagram.configure(command=button_diagram_def)
     button_diagram.place(rely=0.1, relx=0.7, anchor="center")
 
-
 decorlabel1 = ctk.CTkLabel(
     master=app,
     text="＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿",
@@ -277,3 +284,4 @@ else:
 file_select.place(rely=0.05, relx=0.5, anchor="center")
 
 app.mainloop()
+

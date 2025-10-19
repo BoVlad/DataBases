@@ -22,6 +22,7 @@ files = os.listdir()
 files = [i for i in files if i.endswith(".csv")]
 
 info_label = ctk.CTkLabel(master=app, text="Інформація", font=ctk.CTkFont(size=50))
+img_label = ctk.CTkLabel(app, text="")
 
 method_select = ctk.CTkOptionMenu(
     master=app,
@@ -56,12 +57,22 @@ def info_opening(choice):
     column_select.place_forget()
     copy_button.place_forget()
     info_label.place_forget()
+    method_select2.place_forget()
+    column_select2.place_forget()
+    column_select2_2.place_forget()
+    img_label.place_forget()
+
 
     df = pd.read_csv(choice).dropna()
     df_operable_columns = list(df.select_dtypes(include=["number"]).columns)
     df_describe = df.describe()
 
     def button_info_def():
+        method_select2.place_forget()
+        column_select2.place_forget()
+        column_select2_2.place_forget()
+        img_label.place_forget()
+
         decorlabel2.place(rely=0.86, relx=-0.08, anchor="w")
         info_label.place(rely=0.18, relx=0.02, anchor="nw")
 
@@ -113,6 +124,7 @@ def info_opening(choice):
         column_select.place_forget()
         copy_button.place_forget()
         info_label.place_forget()
+        decorlabel2.place_forget()
 
         method_select2.set("Виберіть метод")
         method_select2.place(rely=0.25, relx=0.85, anchor="center")
@@ -224,13 +236,8 @@ def info_opening(choice):
                 img_size = tuple(int(i / 1.6) for i in img.size)
                 ctk_img = CTkImage(light_image=img, dark_image=img, size=img_size)
 
-                if hasattr(app, "img_label"):
-                    app.img_label.configure(image=ctk_img)
-                    app.img_label.image = ctk_img
-                else:
-                    app.img_label = ctk.CTkLabel(app, image=ctk_img, text="")
-                    app.img_label.image = ctk_img
-                    app.img_label.place(rely=0.55, relx=0.35, anchor="center")
+                img_label.configure(image=ctk_img)
+                img_label.place(rely=0.55, relx=0.35, anchor="center")
 
         method_select2.configure(command=option_menu_info_def2)
         column_select2.configure(command=option_menu_info_def2)

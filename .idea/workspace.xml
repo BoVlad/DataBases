@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967170df-fde5-4cdd-b8ad-f7085bf8d989" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/commands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/default_ciphers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/file_utilts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/keyboards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/shyfrobot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 2/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 2/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 5/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 5/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/billionaires.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/movies_dataset.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Project/PPReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/PPReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crypto/Final Project/shyfrobot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Crypto/Final Project/shyfrobot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760865956502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1">
+      <option name="closed" value="true" />
+      <created>1762804000109</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762804000109</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

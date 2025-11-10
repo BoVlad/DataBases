@@ -38,8 +38,11 @@ async def cmd_start(message: Message):
 @router.message(HELP_COMMAND, StateFilter("*"))
 async def cmd_help(message: Message, state: FSMContext):
     await state.clear()
-    await message.answer("Shyfro - це бот-шифрувальник для ваших повідомлень. Команди:\n"
-                         "• /encrypt - команда, через яку йде шифрування (спочатку потріьн", reply_markup=ReplyKeyboardRemove())
+    await message.answer("Shyfro - це бот-шифрувальник для ваших повідомлень.\n\n"
+                         "Команди:\n"
+                         "• /encrypt - команда для шифрування (спочатку потрібно обрати алгоритм)\n"
+                         "• /decrypt - команда для розфрування (спочатку потрібно обрати алгоритм)\n"
+                         "• /set_algorithm - команда для обирання алгоритму\n", reply_markup=ReplyKeyboardRemove())
 
 @router.message(SET_ALGORITHM_COMMAND, StateFilter("*"))
 async def cmd_set_algorithm(message: Message, state: FSMContext):
@@ -94,7 +97,7 @@ async def mess_to_en(message: Message, state: FSMContext):
         data = await state.get_data()
         ciphered_message = masson_cipher_enc(data["mess_to_en"])
         await message.answer("Ось ваш шифр:")
-        await message.answer(ciphered_message)
+        await message.answer(ciphered_message, parse_mode=None)
         await state.clear()
     else:
         await state.clear()
@@ -117,7 +120,7 @@ async def shift_to_en(message: Message, state: FSMContext):
     if file_data[user_id] == "caesar_cipher":
         ciphered_message = caesar_cipher(data["mess_to_en"], data["shift_to_en"])
     await message.answer("Ось ваш шифр:")
-    await message.answer(ciphered_message)
+    await message.answer(ciphered_message, parse_mode=None)
     await state.clear()
 
 @router.message(DECRYPT_COMMAND, StateFilter("*"))
@@ -147,7 +150,7 @@ async def mess_to_dec(message: Message, state: FSMContext):
         data = await state.get_data()
         deciphered_message = masson_cipher_dec(data["mess_to_dec"])
         await message.answer("Ось ваш шифр:")
-        await message.answer(deciphered_message)
+        await message.answer(deciphered_message, parse_mode=None)
         await state.clear()
     else:
         await state.clear()
@@ -169,7 +172,7 @@ async def shift_to_dec(message: Message, state: FSMContext):
     if file_data[user_id] == "caesar_cipher":
         deciphered_message = caesar_cipher(data["mess_to_dec"], data["shift_to_dec"])
     await message.answer("Ось ваша розшифровка:")
-    await message.answer(deciphered_message)
+    await message.answer(deciphered_message, parse_mode=None)
     await state.clear()
 
 

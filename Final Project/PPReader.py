@@ -3,7 +3,6 @@ import customtkinter as ctk
 from customtkinter import CTkImage
 from matplotlib import pyplot as plt
 import os
-from tkinter import ttk
 from PIL import Image
 import numpy as np
 

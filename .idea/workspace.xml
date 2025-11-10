@@ -5,6 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="967170df-fde5-4cdd-b8ad-f7085bf8d989" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/default_ciphers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/file_utilts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/shyfrobot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Final Project/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 1/File3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 2/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 2/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 3/File3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 4/File4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 5/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto/Lesson 5/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/File4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/billionaires.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson 8 (PyPlot)/movies_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final Project/PPReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Final Project/PPReader.py" afterDir="false" />
     </list>
@@ -36,6 +66,9 @@
     &quot;accountId&quot;: &quot;da9d2d3d-6bbb-4c41-9ff5-2bde7c3fee0c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python313/Lib/hashlib.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -44,45 +77,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.File1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.File2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.File3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Homework1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Honework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LessonFile1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LessonFile2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LessonFile3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PPReader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.os5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zver/PycharmProjects/DataBases/Final Project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.File1.executor": "Run",
+    "Python.File2.executor": "Run",
+    "Python.File3.executor": "Run",
+    "Python.File4.executor": "Run",
+    "Python.Homework1.executor": "Run",
+    "Python.Honework.executor": "Run",
+    "Python.LessonFile1.executor": "Run",
+    "Python.LessonFile2.executor": "Run",
+    "Python.LessonFile3.executor": "Run",
+    "Python.PPReader.executor": "Run",
+    "Python.Shifr1.executor": "Run",
+    "Python.os1.executor": "Run",
+    "Python.os2.executor": "Run",
+    "Python.os3.executor": "Run",
+    "Python.os4.executor": "Run",
+    "Python.os5.executor": "Run",
+    "Python.shyfrobot.executor": "Run",
+    "Python.test 2.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Zver/PycharmProjects/DataBases/Crypto/Final Project",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Crypto\Final Project" />
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 8 (PyPlot)" />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project" />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 6 (Pandas)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 8 (PyPlot)" />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project" />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases\Final Project " />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 7 (PyPlot)" />
       <recent name="C:\Users\Zver\PycharmProjects\DataBases" />
-      <recent name="C:\Users\Zver\PycharmProjects\DataBases\Lesson 5 (Pandas)" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -156,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760864992207</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1">
+      <option name="closed" value="true" />
+      <created>1760865956502</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760865956502</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

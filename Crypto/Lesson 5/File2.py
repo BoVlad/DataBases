@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS userdata (
     hashed_password TEXT
 )
 ''')
+conn.commit()
 
 # cursor.execute("INSERT INTO dishes (dish_name, category, price, available) VALUES(?, ?, ?, ?)", (dish_name, category, price, available))
 # conn.commit()
@@ -29,9 +30,6 @@ CREATE TABLE IF NOT EXISTS userdata (
 #                     "WHERE dish_name LIKE ?",('паста%',))
 # print(cursor.fetchall())
 
-users_db = [{"username": "user1", "hashed_password": "some_hashed_password1"},
-             {"username": "user2", "hashed_password": "some_hashed_password2"}]
-
 while True:
     choice = input("Це система користувачів. 1 - Реєстрація, 2 - Логін, 3 - Вихід: ")
     if choice.isdigit():
@@ -39,8 +37,13 @@ while True:
         if choice == 1:
             username_input = input("Введіть ваш логін: ")
             password_input = input("Введіть ваш пароль: ")
-            cursor.execute("SELECT username FROM userdata")
-            users_list = cursor.fetchall()
+
+            cursor.execute("SELECT username FROM userdata WHERE username = ?", (username_input,))
+            existing = cursor.fetchall()
+
+            if len(existing) > 0:
+                print("Такий користувач вже існує!")
+                continue
 
             salt = bcrypt.gensalt()
             password_input_hashed = bcrypt.hashpw(password_input.encode('utf-8'), salt)
@@ -51,21 +54,20 @@ while True:
         elif choice == 2:
             username_input = input("Введіть ваш логін: ")
             password_input = input("Введіть ваш пароль: ")
-            cursor.execute("SELECT username FROM userdata")
-            users_list = cursor.fetchall()
-            if username_input in users_list[0]:
-                cursor.execute("SELECT username, hashed_password FROM userdata "
-                               "WHERE username = ?", (username_input, ))
-                data = cursor.fetchall()
-                username_from_db = data[0][0]
-                password_from_db = data[0][1]
-                if username_from_db == username_input and bcrypt.checkpw(password_input.encode('utf-8'), password_from_db):
-                    print("Авторизація успішна")
-                    break
-                else:
-                    print("Авторизація не трапилась. Можливо, щось було введене не правильно.")
-            else:
+            cursor.execute("SELECT username, hashed_password FROM userdata WHERE username = ?", (username_input,))
+            user_data = cursor.fetchall()
+
+            if len(user_data) == 0:
                 print("Такого користувача немає.")
+                continue
+
+            username_from_db = user_data[0]
+            password_from_db = user_data[0]
+            if bcrypt.checkpw(password_input.encode('utf-8'), password_from_db):
+                print(f"Авторизація успішна!")
+                break
+            else:
+                print("Неправильний пароль!")
         elif choice == 3:
             break
         else:

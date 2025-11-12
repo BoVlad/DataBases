@@ -37,7 +37,7 @@ API_TOKEN = "gMveTRmkkQe1WcVRHA3BRQR6SpdGRvMy5a2NTiez"
 
 
 
-# DONT LOOK UP
+# Там айпі токен, не лістати уверх.
 
 
 

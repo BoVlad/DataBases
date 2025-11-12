@@ -8,8 +8,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart, StateFilter
 from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import State, StatesGroup
-from aiogram.types import Message, CallbackQuery, URLInputFile, ReplyKeyboardMarkup, ReplyKeyboardRemove
+from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 
 from config import BOT_TOKEN
 from commands import (BOT_ENCRYPT_COMMAND, BOT_DECRYPT_COMMAND, BOT_SET_ALGORITHM_COMMAND, BOT_HELP_COMMAND,
